@@ -1,0 +1,11 @@
+[
+  mainInfo: {
+    name : "afdale solaire",
+    email : "contact@afdal.ma",
+    phone : "2120689474500",
+  },
+  services [
+    {},{}
+  ]
+  
+]
