@@ -1,11 +1,58 @@
-[
-  mainInfo: {
-    name : "afdale solaire",
-    email : "contact@afdal.ma",
-    phone : "2120689474500",
+{
+  "mainInfo": {
+    "name": "Afdal Solaire",
+    "email": "contact@afdal.ma",
+    "phone": "2120689474500",
+    "logo": "./assets/logo.png",
+    "address": "N°79, HAY EL MANSOUR DAHBI, Temara, Morocco",
+    "socialMedia": {
+      "facebook": "https://facebook.com/afdal.solaire",
+      "instagram": "https://instagram.com/afdal.solaire",
+      "linkedin": "https://linkedin.com/company/afdal-solaire"
+    },
+    "website": "https://afdal.ma"
   },
-  services [
-    {},{}
-  ]
-  
-]
+  "services": [
+    {
+      "title": "Solar Panel Installation",
+      "description": "Professional installation of high-efficiency solar panels for homes and businesses.",
+      "icon": "solar-panel"
+    },
+    {
+      "title": "Maintenance & Support",
+      "description": "Regular maintenance and technical support for all installed solar systems.",
+      "icon": "tools"
+    }
+  ],
+  "experiences": [
+    {
+      "year": 2022,
+      "project": "Residential Solar Project",
+      "details": "Installed 100+ residential solar systems across Morocco."
+    },
+    {
+      "year": 2023,
+      "project": "Commercial Solar Park",
+      "details": "Developed a 1MW solar park for a local industry."
+    }
+  ],
+  "feedbacks": [
+    {
+      "client": "Mohamed El Amrani",
+      "comment": "Excellent service and professional team!",
+      "rating": 5
+    },
+    {
+      "client": "Fatima Zahra",
+      "comment": "Very satisfied with the solar installation.",
+      "rating": 4.5
+    }
+  ],
+  "ourValues": [
+    "Sustainability",
+    "Innovation",
+    "Customer Satisfaction",
+    "Integrity"
+  ],
+  "ourVision": "To lead the transition to sustainable energy in Morocco by providing innovative and reliable solar solutions."
+}
