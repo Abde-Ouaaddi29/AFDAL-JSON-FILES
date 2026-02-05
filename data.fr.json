@@ -1,0 +1,108 @@
+
+{
+  "informationsPrincipales": {
+    "nomEntreprise": "Solaria Énergie Maroc",
+    "descriptionPrincipale": "Nous offrons des solutions solaires innovantes pour les foyers, les entreprises et les exploitations agricoles marocaines. Notre mission est de rendre l’énergie propre accessible à tous.",
+    "descriptionSecondaire": "Solaria Énergie est une entreprise marocaine spécialisée dans l’installation, la maintenance et la conception de systèmes solaires sur mesure.",
+    "images": [
+      "https://example.com/img1.jpg",
+      "https://example.com/img2.jpg",
+      "https://example.com/img3.jpg",
+      "https://example.com/img4.jpg"
+    ]
+  },
+
+  "contact": {
+    "email": "contact@solaria.ma",
+    "telephone": "+212 612-345678",
+    "whatsapp": "+212 612-345678",
+    "facebook": "https://facebook.com/solariaenergy",
+    "instagram": "https://instagram.com/solariaenergy",
+    "adresse": "Quartier Industriel, Agadir, Maroc"
+  },
+
+  "typesServices": [
+    { "id": 1, "nomType": "Résidentiel" },
+    { "id": 2, "nomType": "Commercial" },
+    { "id": 3, "nomType": "Agricole" }
+  ],
+
+  "services": [
+    {
+      "id": 1,
+      "nomService": "Installation solaire résidentielle",
+      "description": "Installation complète de panneaux solaires pour maisons individuelles, avec étude énergétique personnalisée.",
+      "image": "https://example.com/service1.jpg",
+      "typeId": 1
+    },
+    {
+      "id": 2,
+      "nomService": "Systèmes solaires pour entreprises",
+      "description": "Solutions clés en main pour réduire vos coûts d’électricité dans vos bureaux ou usines.",
+      "image": "https://example.com/service2.jpg",
+      "typeId": 2
+    },
+    {
+      "id": 3,
+      "nomService": "Pompage solaire agricole",
+      "description": "Pompes solaires pour l’irrigation, adaptées aux exploitations agricoles marocaines.",
+      "image": "https://example.com/service3.jpg",
+      "typeId": 3
+    }
+  ],
+
+  "produits": [
+    {
+      "id": 1,
+      "serviceId": 1,
+      "nom": "Kit solaire 3KW",
+      "description": "Kit complet comprenant onduleur, panneaux et batteries pour usage domestique.",
+      "image": "https://example.com/product1.jpg",
+      "prix": 18000
+    },
+    {
+      "id": 2,
+      "serviceId": 2,
+      "nom": "Système hybride 10KW",
+      "description": "Idéal pour les PME et les ateliers avec une forte consommation d’énergie.",
+      "image": "https://example.com/product2.jpg",
+      "prix": 42000
+    },
+    {
+      "id": 3,
+      "serviceId": 3,
+      "nom": "Pompe solaire submersible",
+      "description": "Pompe performante pour l’irrigation agricole, alimentée à 100 % par énergie solaire.",
+      "image": "https://example.com/product3.jpg",
+      "prix": 9500
+    }
+  ],
+
+  "avisClients": [
+    {
+      "nom": "Ahmed El Mansouri",
+      "email": "ahmed@gmail.com",
+      "message": "Service rapide et équipe professionnelle. Mon système fonctionne parfaitement."
+    },
+    {
+      "nom": "Fatima Zahra",
+      "email": "fatima@gmail.com",
+      "message": "Excellent rapport qualité-prix. Je recommande vivement Solaria Énergie."
+    }
+  ],
+
+  "valeurs": [
+    {
+      "nom": "Innovation",
+      "description": "Nous intégrons les technologies les plus récentes pour maximiser la performance énergétique."
+    },
+    {
+      "nom": "Durabilité",
+      "description": "Nos produits sont conçus pour durer et résister aux conditions climatiques du Maroc."
+    },
+    {
+      "nom": "Confiance",
+      "description": "Nous bâtissons une relation de confiance avec nos clients, basée sur la transparence et la fiabilité."
+    }
+  ]
+}
