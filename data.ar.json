@@ -1,1 +1,102 @@
-data in arabic
+{
+  "mainInfo": {
+    "companyName": "سولاريا إينرجي المغرب",
+    "mainDescription": "نقدم حلولاً شمسية مبتكرة للمنازل والشركات والمزارع المغربية. مهمتنا هي جعل الطاقة النظيفة في متناول الجميع.",
+    "secondDescription": "سولاريا إينرجي شركة مغربية متخصصة في تركيب وصيانة وتصميم أنظمة الطاقة الشمسية المخصصة.",
+    "images": [
+      "https://example.com/img1.jpg",
+      "https://example.com/img2.jpg",
+      "https://example.com/img3.jpg",
+      "https://example.com/img4.jpg"
+    ],
+    "foundater": "حسن الزموري"
+  },
+  "contact": {
+    "email": "contact@solaria.ma",
+    "phone": "+212 612-345678",
+    "whatsapp": "+212 612-345678",
+    "facebook": "https://facebook.com/solariaenergy",
+    "instagram": "https://instagram.com/solariaenergy",
+    "address": "الحي الصناعي، أكادير، المغرب"
+  },
+  "servicesType": [
+    { "id": 1, "typeName": "سكني" },
+    { "id": 2, "typeName": "تجاري" },
+    { "id": 3, "typeName": "زراعي" }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "nameService": "تركيب الطاقة الشمسية السكنية",
+      "desc": "تركيب شامل للألواح الشمسية للمنازل الفردية، مع دراسة طاقوية مخصصة.",
+      "img": "https://example.com/service1.jpg",
+      "typeId": 1
+    },
+    {
+      "id": 2,
+      "nameService": "أنظمة الطاقة الشمسية للشركات",
+      "desc": "حلول متكاملة لتخفيض تكاليف الكهرباء في مكاتبكم أو مصانعكم.",
+      "img": "https://example.com/service2.jpg",
+      "typeId": 2
+    },
+    {
+      "id": 3,
+      "nameService": "الضخ الشمسي الزراعي",
+      "desc": "مضخات شمسية للري، مناسبة للمزارع المغربية.",
+      "img": "https://example.com/service3.jpg",
+      "typeId": 3
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "serviceId": 1,
+      "name": "طقم شمسي 3 كيلوواط",
+      "desc": "طقم متكامل يشمل العاكس والألواح والبطاريات للاستخدام المنزلي.",
+      "img": "https://example.com/product1.jpg",
+      "price": 18000
+    },
+    {
+      "id": 2,
+      "serviceId": 2,
+      "name": "نظام هجين 10 كيلوواط",
+      "desc": "مثالي للمؤسسات الصغيرة والمتوسطة والورشات ذات الاستهلاك العالي للطاقة.",
+      "img": "https://example.com/product2.jpg",
+      "price": 42000
+    },
+    {
+      "id": 3,
+      "serviceId": 3,
+      "name": "مضخة شمسية غاطسة",
+      "desc": "مضخة عالية الأداء للري الزراعي، تعمل بنسبة 100% بالطاقة الشمسية.",
+      "img": "https://example.com/product3.jpg",
+      "price": 9500
+    }
+  ],
+  "feedbacks": [
+    {
+      "name": "أحمد المنصوري",
+      "email": "ahmed@gmail.com",
+      "message": "خدمة سريعة وفريق محترف. نظامي يعمل بشكل مثالي."
+    },
+    {
+      "name": "فاطمة الزهراء",
+      "email": "fatima@gmail.com",
+      "message": "جودة ممتازة بسعر معقول. أنصح بشدة بسولاريا إينرجي."
+    }
+  ],
+  "values": [
+    {
+      "name": "الابتكار",
+      "desc": "ندمج أحدث التقنيات لتحقيق أقصى أداء للطاقة."
+    },
+    {
+      "name": "الاستدامة",
+      "desc": "منتجاتنا مصممة لتدوم وتصمد أمام الظروف المناخية في المغرب."
+    },
+    {
+      "name": "الثقة",
+      "desc": "نبني علاقة ثقة مع عملائنا مبنية على الشفافية."
+    }
+  ]
+}
