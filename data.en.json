@@ -1,8 +1,8 @@
 {
   "mainInfo": {
     "companyName": "Solaria Energy Maroc",
-    "mainDescription": "Nous offrons des solutions solaires innovantes pour les foyers, entreprises et fermes marocaines. Notre mission est de rendre l'énergie propre accessible à tous.",
-    "secondDescription": "Solaria Energy est une entreprise marocaine spécialisée dans l'installation, la maintenance et la conception de systèmes solaires sur mesure.",
+    "mainDescription": "We offer innovative solar solutions for Moroccan homes, businesses, and farms. Our mission is to make clean energy accessible to everyone.",
+    "secondDescription": "Solaria Energy is a Moroccan company specialized in the installation, maintenance, and design of custom solar systems.",
     "images": [
       "assets/aboutAfdal1.jpg",
       "assets/afdalAbout2.jpg",
@@ -10,100 +10,94 @@
       "assets/afdalAbout4.jpg",
       "assets/afdalAbout5.jpg"
     ],
-    "foundater":"hassane Ezzamourie",
+    "foundater": "Hassane Ezzamourie"
   },
-
   "contact": {
     "email": "contact@solaria.ma",
     "phone": "+212 612-345678",
     "whatsapp": "+212 612-345678",
     "facebook": "https://facebook.com/solariaenergy",
     "instagram": "https://instagram.com/solariaenergy",
-    "address": "Quartier Industriel, Agadir, Maroc"
+    "address": "Industrial District, Agadir, Morocco"
   },
-
   "servicesType": [
-    { "id": 1, "typeName": "Résidentiel" },
+    { "id": 1, "typeName": "Residential" },
     { "id": 2, "typeName": "Commercial" },
-    { "id": 3, "typeName": "Agricole" }
+    { "id": 3, "typeName": "Agricultural" }
   ],
-
   "services": [
     {
       "id": 1,
-      "nameService": "Installation Solaire Résidentielle",
-      "desc": "Installation complète de panneaux solaires pour maisons individuelles, avec étude énergétique personnalisée.",
-      "image": "assets/service-Installation solaire résidentielle.jpg",
+      "nameService": "Residential Solar Installation",
+      "desc": "Complete solar panel installation for individual homes, with a personalized energy assessment.",
+      "img": "assets/service-Installation solaire résidentielle.jpg",
       "typeId": 1
     },
     {
       "id": 2,
-      "nameService": "Systèmes Solaires pour Entreprises",
-      "desc": "Solutions clés en main pour réduire vos coûts d’électricité dans vos bureaux ou usines.",
+      "nameService": "Solar Systems for Businesses",
+      "desc": "Turnkey solutions to reduce your electricity costs in your offices or factories.",
       "image": "assets/service-Pompage solaire agricole.jpg",
       "typeId": 2
     },
     {
       "id": 3,
-      "nameService": "Pompage Solaire Agricole",
-      "desc": "Pompes solaires pour irrigation, adaptées aux fermes marocaines.",
-       "image": "assets/service-Systèmes solaires pour entreprises.jpg",
+      "nameService": "Agricultural Solar Pumping",
+      "desc": "Solar pumps for irrigation, tailored to Moroccan farms.",
+      "img": "assets/service-Systèmes solaires pour entreprises.jpg",
       "typeId": 3
     }
   ],
-
   "products": [
     {
       "id": 1,
       "serviceId": 1,
-      "name": "Kit Solaire 3KW",
-      "desc": "Kit complet avec onduleur, panneaux, et batteries pour usage domestique.",
-       "image": "assets/Kit Solaire 3KW.jpg",
+      "name": "3KW Solar Kit",
+      "desc": "Complete kit with inverter, panels, and batteries for domestic use.",
+      "img": "assets/Kit Solaire 3KW.jpg",
       "price": 18000
     },
     {
       "id": 2,
       "serviceId": 2,
-      "name": "Système Hybride 10KW",
-      "desc": "Idéal pour les PME et ateliers avec forte consommation d’énergie.",
-      "image": "assets/Pompe Solaire Submersible.jpg",
+      "name": "10KW Hybrid System",
+      "desc": "Ideal for small and medium businesses and workshops with high energy consumption.",
+      "img": "assets/Pompe Solaire Submersible.jpg",
       "price": 42000
     },
     {
       "id": 3,
       "serviceId": 3,
-      "name": "Pompe Solaire Submersible",
-      "desc": "Pompe performante pour irrigation agricole, alimentée à 100% par énergie solaire.",
-       "image": "assets/Système Hybride 10KW.jpg",
+      "name": "Submersible Solar Pump",
+      "desc": "High-performance pump for agricultural irrigation, powered 100% by solar energy.",
+      "img": "assets/Système Hybride 10KW.jpg",
       "price": 9500
     }
   ],
-
   "feedbacks": [
     {
       "name": "Ahmed El Mansouri",
       "email": "ahmed@gmail.com",
-      "message": "Service rapide et équipe professionnelle. Mon système fonctionne parfaitement."
+      "message": "Fast service and a professional team. My system works perfectly."
     },
     {
       "name": "Fatima Zahra",
       "email": "fatima@gmail.com",
-      "message": "Excellent rapport qualité-prix. Je recommande vivement Solaria Energy."
+      "message": "Excellent value for money. I highly recommend Solaria Energy."
     }
   ],
-
   "values": [
     {
       "name": "Innovation",
-      "desc": "Nous intégrons les technologies les plus récentes pour maximiser la performance énergétique."
+      "desc": "We integrate the latest technologies to maximize energy performance."
     },
     {
-      "name": "Durabilité",
-      "desc": "Nos produits sont conçus pour durer et résister aux conditions climatiques du Maroc."
+      "name": "Durability",
+      "desc": "Our products are built to last and withstand Morocco's climate conditions."
     },
     {
-      "name": "Confiance",
-      "desc": "Nous bâtissons une relation de confiance avec nos clients, basée sur la transparence."
+      "name": "Trust",
+      "desc": "We build a relationship of trust with our clients, based on transparency."
     }
   ]
 }
