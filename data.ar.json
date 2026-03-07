@@ -3,11 +3,12 @@
     "companyName": "سولاريا إينرجي المغرب",
     "mainDescription": "نقدم حلولاً شمسية مبتكرة للمنازل والشركات والمزارع المغربية. مهمتنا هي جعل الطاقة النظيفة في متناول الجميع.",
     "secondDescription": "سولاريا إينرجي شركة مغربية متخصصة في تركيب وصيانة وتصميم أنظمة الطاقة الشمسية المخصصة.",
-    "images": [
-      "https://example.com/img1.jpg",
-      "https://example.com/img2.jpg",
-      "https://example.com/img3.jpg",
-      "https://example.com/img4.jpg"
+     "images": [
+      "assets/aboutAfdal1.jpg",
+      "assets/afdalAbout2.jpg",
+      "assets/afdalAbout3.jpg",
+      "assets/afdalAbout4.jpg",
+      "assets/afdalAbout5.jpg"
     ],
     "foundater": "حسن الزموري"
   },
@@ -29,21 +30,21 @@
       "id": 1,
       "nameService": "تركيب الطاقة الشمسية السكنية",
       "desc": "تركيب شامل للألواح الشمسية للمنازل الفردية، مع دراسة طاقوية مخصصة.",
-      "img": "https://example.com/service1.jpg",
+     "image": "assets/service-Installation solaire résidentielle.jpg",
       "typeId": 1
     },
     {
       "id": 2,
       "nameService": "أنظمة الطاقة الشمسية للشركات",
       "desc": "حلول متكاملة لتخفيض تكاليف الكهرباء في مكاتبكم أو مصانعكم.",
-      "img": "https://example.com/service2.jpg",
+    "image": "assets/service-Pompage solaire agricole.jpg",
       "typeId": 2
     },
     {
       "id": 3,
       "nameService": "الضخ الشمسي الزراعي",
       "desc": "مضخات شمسية للري، مناسبة للمزارع المغربية.",
-      "img": "https://example.com/service3.jpg",
+      "image": "assets/service-Systèmes solaires pour entreprises.jpg",
       "typeId": 3
     }
   ],
@@ -61,7 +62,7 @@
       "serviceId": 2,
       "name": "نظام هجين 10 كيلوواط",
       "desc": "مثالي للمؤسسات الصغيرة والمتوسطة والورشات ذات الاستهلاك العالي للطاقة.",
-      "img": "https://example.com/product2.jpg",
+      "image": "assets/Kit Solaire 3KW.jpg",
       "price": 42000
     },
     {
@@ -69,7 +70,7 @@
       "serviceId": 3,
       "name": "مضخة شمسية غاطسة",
       "desc": "مضخة عالية الأداء للري الزراعي، تعمل بنسبة 100% بالطاقة الشمسية.",
-      "img": "https://example.com/product3.jpg",
+      "image": "assets/Pompe Solaire Submersible.jpg",
       "price": 9500
     }
   ],
