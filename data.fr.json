@@ -1,9 +1,8 @@
-
 {
-  "informationsPrincipales": {
-    "nomEntreprise": "Solaria Énergie Maroc",
-    "descriptionPrincipale": "Nous offrons des solutions solaires innovantes pour les foyers, les entreprises et les exploitations agricoles marocaines. Notre mission est de rendre l’énergie propre accessible à tous.",
-    "descriptionSecondaire": "Solaria Énergie est une entreprise marocaine spécialisée dans l’installation, la maintenance et la conception de systèmes solaires sur mesure.",
+  "mainInfo": {
+    "companyName": "Solaria Energy Maroc",
+    "mainDescription": "Nous offrons des solutions solaires innovantes pour les foyers, entreprises et fermes marocaines. Notre mission est de rendre l'énergie propre accessible à tous.",
+    "secondDescription": "Solaria Energy est une entreprise marocaine spécialisée dans l'installation, la maintenance et la conception de systèmes solaires sur mesure.",
     "images": [
       "assets/aboutAfdal1.jpg",
       "assets/afdalAbout2.jpg",
@@ -11,100 +10,94 @@
       "assets/afdalAbout4.jpg",
       "assets/afdalAbout5.jpg"
     ],
-     "foundater":"hassane Ezzamourie",
+    "foundater": "Hassane Ezzamourie"
   },
-
   "contact": {
     "email": "contact@solaria.ma",
-    "telephone": "+212 612-345678",
+    "phone": "+212 612-345678",
     "whatsapp": "+212 612-345678",
     "facebook": "https://facebook.com/solariaenergy",
     "instagram": "https://instagram.com/solariaenergy",
-    "adresse": "Quartier Industriel, Agadir, Maroc"
+    "address": "Quartier Industriel, Agadir, Maroc"
   },
-
-  "typesServices": [
-    { "id": 1, "nomType": "Résidentiel" },
-    { "id": 2, "nomType": "Commercial" },
-    { "id": 3, "nomType": "Agricole" }
+  "servicesType": [
+    { "id": 1, "typeName": "Résidentiel" },
+    { "id": 2, "typeName": "Commercial" },
+    { "id": 3, "typeName": "Agricole" }
   ],
-
   "services": [
     {
       "id": 1,
-      "nomService": "Installation solaire résidentielle",
-      "description": "Installation complète de panneaux solaires pour maisons individuelles, avec étude énergétique personnalisée.",
-      "image": "assets/service-Installation solaire résidentielle.jpg",
+      "nameService": "Installation Solaire Résidentielle",
+      "desc": "Installation complète de panneaux solaires pour maisons individuelles, avec étude énergétique personnalisée.",
+      "img": "assets/service-Installation solaire résidentielle.jpg",
       "typeId": 1
     },
     {
       "id": 2,
-      "nomService": "Systèmes solaires pour entreprises",
-      "description": "Solutions clés en main pour réduire vos coûts d’électricité dans vos bureaux ou usines.",
+      "nameService": "Systèmes Solaires pour Entreprises",
+      "desc": "Solutions clés en main pour réduire vos coûts d'électricité dans vos bureaux ou usines.",
       "image": "assets/service-Pompage solaire agricole.jpg",
       "typeId": 2
     },
     {
       "id": 3,
-      "nomService": "Pompage solaire agricole",
-      "description": "Pompes solaires pour l’irrigation, adaptées aux exploitations agricoles marocaines.",
-      "image": "assets/service-Systèmes solaires pour entreprises.jpg",
+      "nameService": "Pompage Solaire Agricole",
+      "desc": "Pompes solaires pour l'irrigation, adaptées aux fermes marocaines.",
+      "img": "assets/service-Systèmes solaires pour entreprises.jpg",
       "typeId": 3
     }
   ],
-
-  "produits": [
+  "products": [
     {
       "id": 1,
       "serviceId": 1,
-      "nom": "Kit solaire 3KW",
-      "description": "Kit complet comprenant onduleur, panneaux et batteries pour usage domestique.",
-      "image": "assets/Kit Solaire 3KW.jpg",
-      "prix": 18000
+      "name": "Kit Solaire 3KW",
+      "desc": "Kit complet avec onduleur, panneaux et batteries pour usage domestique.",
+      "img": "assets/Kit Solaire 3KW.jpg",
+      "price": 18000
     },
     {
       "id": 2,
       "serviceId": 2,
-      "nom": "Système hybride 10KW",
-      "description": "Idéal pour les PME et les ateliers avec une forte consommation d’énergie.",
-      "image": "assets/Pompe Solaire Submersible.jpg",
-      "prix": 42000
+      "name": "Système Hybride 10KW",
+      "desc": "Idéal pour les PME et ateliers à forte consommation énergétique.",
+      "img": "assets/Pompe Solaire Submersible.jpg",
+      "price": 42000
     },
     {
       "id": 3,
       "serviceId": 3,
-      "nom": "Pompe solaire submersible",
-      "description": "Pompe performante pour l’irrigation agricole, alimentée à 100 % par énergie solaire.",
-      "image": "assets/Système Hybride 10KW.jpg",
-      "prix": 9500
+      "name": "Pompe Solaire Submersible",
+      "desc": "Pompe haute performance pour l'irrigation agricole, alimentée à 100 % par énergie solaire.",
+      "img": "assets/Système Hybride 10KW.jpg",
+      "price": 9500
     }
   ],
-
-  "avisClients": [
+  "feedbacks": [
     {
-      "nom": "Ahmed El Mansouri",
+      "name": "Ahmed El Mansouri",
       "email": "ahmed@gmail.com",
       "message": "Service rapide et équipe professionnelle. Mon système fonctionne parfaitement."
     },
     {
-      "nom": "Fatima Zahra",
+      "name": "Fatima Zahra",
       "email": "fatima@gmail.com",
-      "message": "Excellent rapport qualité-prix. Je recommande vivement Solaria Énergie."
+      "message": "Excellent rapport qualité-prix. Je recommande vivement Solaria Energy."
     }
   ],
-
-  "valeurs": [
+  "values": [
     {
-      "nom": "Innovation",
-      "description": "Nous intégrons les technologies les plus récentes pour maximiser la performance énergétique."
+      "name": "Innovation",
+      "desc": "Nous intégrons les technologies les plus récentes pour maximiser la performance énergétique."
     },
     {
-      "nom": "Durabilité",
-      "description": "Nos produits sont conçus pour durer et résister aux conditions climatiques du Maroc."
+      "name": "Durabilité",
+      "desc": "Nos produits sont conçus pour durer et résister aux conditions climatiques du Maroc."
     },
     {
-      "nom": "Confiance",
-      "description": "Nous bâtissons une relation de confiance avec nos clients, basée sur la transparence et la fiabilité."
+      "name": "Confiance",
+      "desc": "Nous bâtissons une relation de confiance avec nos clients, basée sur la transparence."
     }
   ]
 }
